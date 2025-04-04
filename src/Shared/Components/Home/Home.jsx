@@ -37,7 +37,7 @@ function Home() {
         <h1 className=" text-[#8F3300] flex justify-center items-center  z-10   font-bold lg:text-5xl  md:text-3xl text-xl max-w-[50rem] text-center ">
           International Journal of Advanced Nursing Research
         </h1>
-        <a href="https://ijatra.com/Ijatra/index.php/ijatra/about/submissions" target="_blank" rel="noopener noreferrer" className="w-fit group z-10" >
+        <a href="https://ijanr.com/ijanr/index.php/ijanr/about/submissions" target="_blank" rel="noopener noreferrer" className="w-fit group z-10" >
           <button className="md:p-3 p-2   font-semibold  flex  justify-center items-center gap-3 bg-[#8F3300] md:text-base text-sm   text-white duration-300 cursor-pointer w-[190px]">
             Submit Your Paper
             <i class="fi fi-bs-location-arrow flex items-center group-hover:translate-x-1 duration-300"></i>
