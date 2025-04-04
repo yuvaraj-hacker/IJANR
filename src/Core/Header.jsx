@@ -198,8 +198,7 @@ const Header = () => {
                         } else {
                           setMenuOpen(false);
                         }
-                      }}
-                    >
+                      }}>
                       {link.label}
                       {link.dropdown && (
                         <i className={`fi fi-rs-angle-small-down flex items-center  transition-all duration-300 ease-in-out  text-white ${hoveredCategory === link.label ? '  text-white rotate-180 duration-100' : ' '} `}></i>
