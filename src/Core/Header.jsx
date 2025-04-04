@@ -127,7 +127,7 @@ const Header = () => {
         <div className="max-w-[90rem] mx-auto md:px-5 px-3   bg-[#8F3300] ">
           <div className="flex items-center justify-between   lg:gap-0  gap-5  ">
             <Link to="/">
-              <div className="bg-white p-5 absolute top-0 border border-black text-[#8F3300] md:flex justify-center items-center font-bold md:hidden block">
+              <div className="bg-white p-5   top-0   text-[#8F3300] md:flex justify-center items-center font-bold md:hidden block">
                 IJANR
               </div>
             </Link>
@@ -175,8 +175,8 @@ const Header = () => {
       <section className={`md:bg-[#8F3300] border-[#CB6527] md:border-t-8  fixed top-0 right-0  w-64    z-40      ${menuOpen ? "translate-x-0  duration-500 " : "translate-x-full   "
         } md:block md:relative md:w-auto md:translate-x-0  `}>
         <header className="max-w-[90rem] mx-auto px-5 bg-[#8F3300] md:h-auto h-screen ">
-          <div className="flex   md:justify-between items-center py-1 relative">
-            <div className="bg-white pt-7 pb-5 px-7 absolute border border-black text-[#8F3300] md:flex justify-center    items-center font-bold md:block hidden">
+          <div className="flex   md:justify-between items-center   relative">
+            <div className="bg-white py-4  px-7 text-[#8F3300] md:flex justify-center md:text-xl   items-center font-bold md:block hidden">
               IJANR
             </div>
             <div>
@@ -211,7 +211,7 @@ const Header = () => {
                           <Link
                             key={dropdownlink.to}
                             to={dropdownlink.to}
-                            className="block px-4 py-2 md:text-[#8F3300]  md:text-start    underline underline-offset-2 text-white"
+                            className="block md:px-4 py-2 md:text-[#8F3300]  md:text-start  md:text-base text-sm  underline underline-offset-2 text-white"
                             onClick={() => {
                               setHoveredCategory(null);
                               setMenuOpen(false);
