@@ -47,7 +47,7 @@ function Home() {
       <section className=" flex flex-col gap-5  max-w-[90rem] md:py-10 py-5  mx-auto md:px-5 px-3">
         <div className="  relative">
           <section className="flex flex-col md:gap-10 gap-5">
-            <section className="flex flex-col md: md:gap-4 gap-2 gap-2">
+            <section className="flex flex-col md: md:gap-4 gap-2">
               <div className=' '>
                 <h1 className=" text-[#8F3300] text-center bg-[#D9D9D9] w-fit mx-auto p-1 px-5   font-semibold  lg:text-2xl   text-lg ">
                   About Our Publication
@@ -62,7 +62,7 @@ function Home() {
                 </button>
               </Link>
             </section>
-            <section className="flex flex-col md: md:gap-4 gap-2 gap-2">
+            <section className="flex flex-col md: md:gap-4 gap-2">
               <div className=' '>
                 <h1 className=" text-[#8F3300] text-center bg-[#D9D9D9] w-fit mx-auto p-1 px-5   font-semibold  lg:text-2xl   text-lg ">
                   The Jounal Covers following Areas
@@ -82,7 +82,7 @@ function Home() {
                 ))}
               </div>
             </section>
-            <section className="flex flex-col md: md:gap-4 gap-2 gap-2">
+            <section className="flex flex-col md: md:gap-4 gap-2">
               <div className=' '>
                 <h1 className=" text-[#8F3300] text-center bg-[#D9D9D9] w-fit mx-auto p-1 px-5   font-semibold  lg:text-2xl   text-lg ">
                   Journal Overview
@@ -96,13 +96,11 @@ function Home() {
                       <h2 className="text-[#8F3300] font-semibold   md:text-lg ">Open Access</h2>
                       <FaUnlockAlt className="text-[#8F3300]" />
                     </div>
-
                     <div className="flex  md:gap-4 gap-2  ">
                         <i className="fi fi-sr-right mt-1  text-[#8F3300]  "></i>
                       <p className=" md:text-base text-sm">IJANR follows a fully open-access publishing model, ensuring that all published articles are freely accessible to a global audience without any subscription or paywall restrictions. This promotes the widespread dissemination of nursing research and maximizes its impact on healthcare practice and policy.</p>
                     </div>
                   </div>
-
                   {/* <div className="   flex justify-between items-center">
                     <div className="md:p-4 p-3   bg-[#CB6527] w-fit relative bottom-0 border border-[#CB6527] text-white">
                       <FaUnlockAlt />
